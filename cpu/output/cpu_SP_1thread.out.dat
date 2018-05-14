@@ -1,0 +1,18 @@
+Workload Concurrency MyCPUBenchValue TheoreticalValue Efficiency
+
+
+
+
+
+
+
+
+
+
+
+
+QP  1  0.41 GigaOPS/sec  2355.00 GigaOPS/sec  0.02 
+QP  2  0.41 GigaOPS/sec  2355.00 GigaOPS/sec  0.02 
+QP  4  0.40 GigaOPS/sec  2355.00 GigaOPS/sec  0.02 
+HP  1  0.41 GigaOPS/sec  2355.00 GigaOPS/sec  0.02 
+HP  2  0.42 GigaOPS/sec  2355.00 GigaOPS/sec  0.02 

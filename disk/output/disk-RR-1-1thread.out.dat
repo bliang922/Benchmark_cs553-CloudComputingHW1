@@ -1,0 +1,106 @@
+Workload Concurrency BlockSize MyDiskBenchThroughput TheoreticalThroughput Efficiency
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WS  1  1048576  606.3 MB/sec  540.0 MB/sec  112.3 
+WS  2  1048576  1028.6 MB/sec  540.0 MB/sec  190.5 
+WS  4  1048576  1198.6 MB/sec  540.0 MB/sec  222.0 
+WS  1  10485760  1311.9 MB/sec  540.0 MB/sec  242.9 
+WS  2  10485760  1079.3 MB/sec  540.0 MB/sec  199.9 
+WS  4  10485760  953.8 MB/sec  540.0 MB/sec  176.6 
+WS  1  104857600  926.2 MB/sec  540.0 MB/sec  171.5 
+WS  2  104857600  608.1 MB/sec  540.0 MB/sec  112.6 
+WS  4  104857600  388.9 MB/sec  540.0 MB/sec  72.0 
+RS  1  1048576  1525.9 MB/sec  540.0 MB/sec  282.6 
+RS  2  1048576  4620.4 MB/sec  540.0 MB/sec  855.6 
+RS  4  1048576  6232.3 MB/sec  540.0 MB/sec  1154.1 
+RS  1  10485760  6365.2 MB/sec  540.0 MB/sec  1178.7 
+RS  2  10485760  4921.7 MB/sec  540.0 MB/sec  911.4 
+RS  4  10485760  3811.1 MB/sec  540.0 MB/sec  705.8 
+RS  1  104857600  2639.3 MB/sec  540.0 MB/sec  488.8 
+RS  2  104857600  2959.3 MB/sec  540.0 MB/sec  548.0 
+RS  4  104857600  1330.0 MB/sec  540.0 MB/sec  246.3 
+RR  1  1048576  3863.1 MB/sec  540.0 MB/sec  715.4 
+RR  2  1048576  3650.3 MB/sec  540.0 MB/sec  676.0 
+RR  4  1048576  5399.1 MB/sec  540.0 MB/sec  999.8 
+RR  1  10485760  4900.8 MB/sec  540.0 MB/sec  907.6 
+RR  2  10485760  6023.4 MB/sec  540.0 MB/sec  1115.4 
+RR  4  10485760  5553.1 MB/sec  540.0 MB/sec  1028.4 
+RR  1  104857600  3528.3 MB/sec  540.0 MB/sec  653.4 
+RR  2  104857600  2838.8 MB/sec  540.0 MB/sec  525.7 
+RR  4  104857600  2258.0 MB/sec  540.0 MB/sec  418.1 
+WR  1  1048576  1751.7 MB/sec  540.0 MB/sec  324.4 
+WR  2  1048576  1483.4 MB/sec  540.0 MB/sec  274.7 
+WR  4  1048576  1485.7 MB/sec  540.0 MB/sec  275.1 
+WR  1  10485760  1769.5 MB/sec  540.0 MB/sec  327.7 
+WR  2  10485760  1627.8 MB/sec  540.0 MB/sec  301.4 
+WR  4  10485760  1317.7 MB/sec  540.0 MB/sec  244.0 
+WR  1  104857600  989.2 MB/sec  540.0 MB/sec  183.2 
+WR  2  104857600  1088.8 MB/sec  540.0 MB/sec  201.6 
+WR  4  104857600  687.5 MB/sec  540.0 MB/sec  127.3 
+LTC_RR  1  1024  0.07 ms  50.0 ms  0.00 
+LTC_RR  2  1024  0.03 ms  50.0 ms  0.00 
+LTC_RR  4  1024  0.02 ms  50.0 ms  0.00 
+LTC_RR  8  1024  0.02 ms  50.0 ms  0.00 
+LTC_RR  16  1024  0.04 ms  50.0 ms  0.00 
+LTC_RR  32  1024  0.04 ms  50.0 ms  0.00 
+LTC_RR  64  1024  0.07 ms  50.0 ms  0.00 
+LTC_RR  128  1024  0.09 ms  50.0 ms  0.00 
+LTC_WR  1  1024  0.00 ms  50.0 ms  0.00 
+LTC_WR  2  1024  0.00 ms  50.0 ms  0.00 
+LTC_WR  4  1024  0.00 ms  50.0 ms  0.00 
+LTC_WR  8  1024  0.00 ms  50.0 ms  0.00 
+LTC_WR  16  1024  0.00 ms  50.0 ms  0.00 
+LTC_WR  32  1024  0.00 ms  50.0 ms  0.00 
+LTC_WR  64  1024  0.00 ms  50.0 ms  0.00 
+LTC_WR  128  1024  0.00 ms  50.0 ms  0.00 

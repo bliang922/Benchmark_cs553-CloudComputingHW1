@@ -1,0 +1,21 @@
+MyBenchmark tested in hyerionides
+
+1.for CPU DISK and Memory test, open 3 terminals, login to hyerionides
+
+cd to ~/cs553-pa1  run below 3 command in parrel
+--run: srun ./cpu.sh in one terminal
+--run: srun  ./disk.sh in one terminal
+--run: srun ./memory.sh in one terminal
+ 
+	the result will be writting to output/cpu(memory disk)_SP_1thread.out.dat"
+
+2.for network test, open 2 terminals, login to hyerionides, 
+
+-- run: srun ./networkserver.sh in one terminal
+	this command will allocate a node for server and show the server IP in the terminal
+
+-- get the server IP, open "~cs553-pa1/networkclient.sh", modify the IP into server IP
+
+--run: srun ./networkclient.sh in the other terminal
+
+	the result will be writting to output/network-TCP-1-1thread.out.dat"
